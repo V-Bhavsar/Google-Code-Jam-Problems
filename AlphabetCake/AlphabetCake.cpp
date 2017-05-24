@@ -30,41 +30,29 @@ int main()
     for(int i=0; i<r; i++) {
       char curr = '?';
       for(int j=0; j<c; j++) {
-        if(grid[i][j] != '?') {
-          curr = grid[i][j];
-        } else {
-          grid[i][j] = curr;
-        }
+        if(grid[i][j] != '?') curr = grid[i][j];
+        else grid[i][j] = curr;
       }
     }
     for(int i=0; i<r; i++) {
       char curr = '?';
       for(int j=c-1; j>=0; j--) {
-        if(grid[i][j] != '?') {
-          curr = grid[i][j];
-        } else {
-          grid[i][j] = curr;
-        }
+        if(grid[i][j] != '?') curr = grid[i][j];
+        else grid[i][j] = curr;
       }
     }
     for(int j=0; j<c; j++) {
       char curr = '?';
       for(int i=0; i<r; i++) {
-        if(grid[i][j] != '?') {
-          curr = grid[i][j];
-        } else {
-          grid[i][j] = curr;
-        }
+        if(grid[i][j] != '?') curr = grid[i][j];
+        else grid[i][j] = curr;
      }
     }
     for(int j=0; j<c; j++) {
       char curr = '?';
       for(int i=r-1; i>=0; i--) {
-        if(grid[i][j] != '?') {
-          curr = grid[i][j];
-        } else {
-          grid[i][j] = curr;
-        }
+        if(grid[i][j] != '?') curr = grid[i][j];
+        else grid[i][j] = curr;
      }
     }
 
